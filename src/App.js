@@ -27,6 +27,7 @@ function App(props) {
           value={inputTask}
         />
         <button onClick={addTask}> Submit</button>
+        <button> View Single</button>
         {taskList.map((value, index) => {
           return (
             <Task
